@@ -1,0 +1,60 @@
+@CHARSET "ISO-8859-1";
+
+h1 {
+     text-align:center; 
+     text-transform:uppercase;
+     color:white;
+     background-color:black;
+}
+h2 {
+    text-align:center;
+    text-transform:uppercase;
+}
+
+.centrets {
+    text-align:center;
+    font-style:italic;
+    font-variant:small-caps;
+}
+
+.labais {
+    text-align:right;
+    color:brown;
+    text-decoration:underline;
+}
+
+.abas {
+    text-align:justify;
+    letter-spacing:5px;
+}
+
+#indekss {
+    background-color:rgb(229, 195, 195);
+}
+
+#saraksti {
+    /*background-image:URL(pils.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover,contain;
+}
+#saraksti img {
+    margin:auto;
+    display:block;
+}
+#saraksti ul {
+    list-style-image:url(bul1.png);
+}
+
+#tabulas {
+    background-image:URL(gerbonis.jpg);
+    background-repeat:repeat-y;
+    background-position:right;
+}
+#saraksti > ol > li {
+    font-weight: bold;
+    list-style-type: lower-roman;
+}
+#saraksti ol li ol li {
+    list-style-type: upper-alpha;
+    font-size:19px;
+}
